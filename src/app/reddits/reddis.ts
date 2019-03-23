@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 import { NavController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-tab3',
-  templateUrl: 'tab3.page.html',
-  styleUrls: ['tab3.page.scss']
+  selector: 'reddit',
+  templateUrl: 'reddits.html',
 })
-export class Tab3Page {
-
+export class RedditsPage {
+ 
   constructor(public navCtrl: NavController){
     
   }
